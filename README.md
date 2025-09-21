@@ -1,20 +1,27 @@
-# 🌸 Carte de Visite Reiki Shamballa
+# 🌌 Carte de visite Reiki Shamballa
 
-Une carte de visite interactive en **HTML/CSS**, avec **QR code stylisé** et déploiement sur **Netlify**.  
-Elle permet de présenter simplement mon activité de soins holistiques et de proposer la réservation de séances via **Google Agenda** ou SMS.
-
----
-
-## 🚀 Fonctionnalités
-
-- 🪬 Design inspiré de la **Flamme Violette** et du **Cube de Métatron**  
-- 📱 Affichage **responsive** (adapté mobile & PC)  
-- ✨ **Animations douces** sur le logo et les icônes  
-- 🔗 Liens rapides :
-  - Vers mon **Google Agenda** pour réserver une séance
-  - Vers un **SMS prérempli**
-- 🎨 QR code **violet stylisé** avec logo au centre
+Carte de visite interactive et responsive pour présenter mes soins Reiki Shamballa.  
+Inclut un QR Code stylisé vers Google Agenda pour réserver une séance ✨.
 
 ---
 
-## 📂 Structure du projet
+## 🚀 Démo en ligne
+🔗 [Voir la carte sur Netlify](https://reiki-shamballanetlifyapp.netlify.app)
+
+---
+
+## 📦 Fonctionnalités
+- 🌈 QR Code personnalisé (violet, transparent, avec symbole de Métatron au centre).  
+- 📱 Responsive design (mobile + desktop).  
+- 🖤 Fond animé et mise en valeur des icônes.  
+- 📅 Lien direct vers Google Agenda pour prise de rendez-vous.  
+- 📲 Lien direct SMS avec texte pré-rempli.  
+
+---
+
+## 🛠️ Installation locale
+Cloner le dépôt et ouvrir `index.html` dans ton navigateur :
+
+```bash
+git clone git@github.com:Jeff888Z/qr_reiki.git
+cd qr_reiki
