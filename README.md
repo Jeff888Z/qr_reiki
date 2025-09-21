@@ -6,7 +6,7 @@ Inclut un QR Code stylisé vers Google Agenda pour réserver une séance ✨.
 ---
 
 ## 🚀 Démo en ligne
-🔗 [Voir la carte sur Netlify](https://reiki-shamballanetlifyapp.netlify.app)
+🔗 [Voir la carte sur Netlify](https://reiki-shamballa88888netlifyapp.netlify.app)
 
 ---
 
