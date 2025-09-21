@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Reiki Shamballa – Jean-François</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: linear-gradient(to bottom right, #4b0082, #8a2be2);
+      border-radius: 20px;
+      padding: 25px;
+      text-align: center;
+      color: white;
+      width: 90%;              /* ✅ prend presque toute la largeur */
+      max-width: 500px;        /* ✅ limite sur PC */
+      box-shadow: 0 0 25px rgba(216,164,255,0.6);
+    }
+
+    h1 {
+      margin: 10px 0 0;
+      font-size: 2rem;
+      color: #d8a4ff;
+    }
+
+    h2 {
+      margin: 10px 0 10px;
+      font-size: 1.2rem;
+    }
+
+    p.mantra {
+      font-style: italic;
+      font-size: 0.95rem;
+      margin: 15px 0;
+      opacity: 0.85;
+    }
+
+    @keyframes glowPulse {
+      0%   { box-shadow: 0 0 10px rgba(216,164,255,0.4);}
+      50%  { box-shadow: 0 0 25px rgba(216,164,255,0.9);}
+      100% { box-shadow: 0 0 10px rgba(216,164,255,0.4);}
+    }
+
+    @keyframes pulseZoom {
+      0%   { transform: scale(1); }
+      50%  { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .symbol {
+      width: 160px;
+      height: 160px;
+      border-radius: 20px;
+      border: 3px solid #d8a4ff;
+      margin: 0 auto 15px;
+      animation: glowPulse 3s infinite ease-in-out, pulseZoom 6s infinite ease-in-out;
+    }
+
+    .qr img {
+      width: 180px;
+      margin: 20px 0;
+      border: 3px solid #fff;
+      border-radius: 12px;
+      animation: glowPulse 3s infinite ease-in-out;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin: 15px 0;
+    }
+
+    .icons a svg {
+      width: 50px;
+      height: 50px;
+      color: white;
+      transition: transform .25s, color .25s;
+    }
+
+    .icons a:hover svg {
+      transform: scale(1.15);
+      color: #d8a4ff;
+    }
+
+    /* ✅ Sur mobile : agrandir largeur à quasi 100% */
+    @media (max-width: 600px) {
+      .card {
+        width: 98%;
+        border-radius: 0;
+      }
+      .symbol { width: 150px; height: 150px; }
+      .qr img { width: 160px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="metatron.png" alt="Symbole Reiki Shamballa" class="symbol">
+
+    <h1>Reiki Shamballa</h1>
+    <h2>Soins Holistiques à distance</h2>
+    <p><strong>Jean-François</strong></p>
+    <p class="mantra">« L’énergie suit l’intention. »</p>
+
+    <div class="icons">
+      <a href="mailto:jeff888reiki_shamballa@gmail.com" title="Envoyer un mail">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 4h16v16H4V4zm0 0l8 8 8-8"/>
+        </svg>
+      </a>
+      <a href="sms:+33743655858?&body=Bonjour, je souhaite réserver une scéance Reiki " title="Envoyer un SMS">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M7 8h10M7 12h6m-6 4h4m7-12H6a2 2 0 00-2 2v12l4-4h12a2 2 0 002-2V6a2 2 0 00-2-2z"/>
+        </svg>
+      </a>
+      <a href="https://calendar.app.google/MkC3nbjuf6Fd1ZDs5" target="_blank" title="Prendre un rendez-vous">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="qr">
+      <a href="https://calendar.app.google/MkC3nbjuf6Fd1ZDs5" target="_blank">
+        <img src="qr_agenda_stylise.png" alt="QR Code Agenda">
+      </a>
+      <p>📲 Scannez pour prendre rendez-vous</p>
+    </div>
+  </div>
+</body>
+</html>
